@@ -1,0 +1,61 @@
+dataset_specifics:
+  acc5_clip_range:
+  - -2.0
+  - 2.0
+  acc7_clip_range:
+  - -3.0
+  - 3.0
+  negative_threshold_binary_non_neutral: -1.0e-05
+  positive_threshold_binary_has0: 0.0
+  positive_threshold_binary_non_neutral: 1.0e-05
+model:
+  audio_dim: 74
+  cls_dropout: 0.4117824480556891
+  cls_hidden_dim: 256
+  contrastive_margin: 1.0
+  dropout_prob: 0.2387010096892993
+  hidden_dim: 512
+  lambda_style: 0.31420115866767906
+  num_classes: 2
+  reg_dropout: 0.554285447848004
+  reg_hidden_dim: 256
+  router_depth: 2
+  router_dropout: 0.251628952523445
+  router_hidden_dim: 256
+  style_dim: 256
+  text_dim: 768
+  visual_dim: 35
+paths:
+  cluster_path: D:/Study/style_moe/clusters/centers_512dim_mosei_bert.npy
+  data_dir: D:/Study/style_moe/database/mosei
+  output_dir: D:/Study/style_moe/outputs/mosei
+training:
+  aux_loss_weights:
+    audio_cls: 0.29746019141780217
+    audio_reg: 0.05295910133041376
+    text_cls: 0.24111336307380793
+    text_reg: 0.5262691395429029
+    vision_cls: 0.20900570749929645
+    vision_reg: 0.4589397079178308
+  batch_size: 32
+  early_stopping_patience: 10
+  epochs: 50
+  focal_alpha:
+  - 0.5
+  - 0.5
+  focal_alpha_binary: balanced
+  focal_alpha_has0:
+  - 0.5
+  - 0.5
+  focal_gamma: 1.519891032616734
+  focal_gamma_has0: 1.519891032616734
+  loss_alpha: 1.959919474137249
+  loss_beta: 0.6257363543024959
+  loss_reg: 1.1812575590512338
+  loss_weight_has0_cls: 0.75
+  lr: 6.087828467168718e-05
+  score_weight_corr: 0.3
+  score_weight_f1_has0: 0.1
+  score_weight_f1_non0: 0.4
+  score_weight_mae: 0.2
+  weight_decay: 0.0011199250623253544

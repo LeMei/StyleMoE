@@ -1,0 +1,134 @@
+Epoch 1, TrainLoss: 0.8262
+  Val MAE: 0.5143, Corr: 0.3147
+  Val ACC-2 (non0): 0.5897, F1 (non0): 0.3750 (N=585)
+  Val ACC-2 (has0_dedicated): 0.5811, F1 (has0_dedicated): 0.3174 (N=647)
+  Val ACC-5: 0.3941, ACC-7: 0.3941
+  Val Combined Score: 0.1733
+Saved best model (comprehensive metrics with has0_head) at epoch 1
+Epoch 2, TrainLoss: 0.7125
+  Val MAE: 0.4373, Corr: 0.5633
+  Val ACC-2 (non0): 0.6786, F1 (non0): 0.6342 (N=585)
+  Val ACC-2 (has0_dedicated): 0.6971, F1 (has0_dedicated): 0.5220 (N=647)
+  Val ACC-5: 0.4096, ACC-7: 0.4096
+  Val Combined Score: 0.3874
+Saved best model (comprehensive metrics with has0_head) at epoch 2
+Epoch 3, TrainLoss: 0.5754
+  Val MAE: 0.3853, Corr: 0.6461
+  Val ACC-2 (non0): 0.7709, F1 (non0): 0.7413 (N=585)
+  Val ACC-2 (has0_dedicated): 0.7883, F1 (has0_dedicated): 0.7164 (N=647)
+  Val ACC-5: 0.4776, ACC-7: 0.4776
+  Val Combined Score: 0.4849
+Saved best model (comprehensive metrics with has0_head) at epoch 3
+Epoch 4, TrainLoss: 0.4721
+  Val MAE: 0.3467, Corr: 0.6856
+  Val ACC-2 (non0): 0.8222, F1 (non0): 0.7824 (N=585)
+  Val ACC-2 (has0_dedicated): 0.8238, F1 (has0_dedicated): 0.7645 (N=647)
+  Val ACC-5: 0.5425, ACC-7: 0.5425
+  Val Combined Score: 0.5258
+Saved best model (comprehensive metrics with has0_head) at epoch 4
+Epoch 5, TrainLoss: 0.4411
+  Val MAE: 0.3400, Corr: 0.6830
+  Val ACC-2 (non0): 0.8120, F1 (non0): 0.7817 (N=585)
+  Val ACC-2 (has0_dedicated): 0.8037, F1 (has0_dedicated): 0.7599 (N=647)
+  Val ACC-5: 0.5549, ACC-7: 0.5549
+  Val Combined Score: 0.5256
+Epoch 6, TrainLoss: 0.4020
+  Val MAE: 0.3324, Corr: 0.6990
+  Val ACC-2 (non0): 0.8222, F1 (non0): 0.7709 (N=585)
+  Val ACC-2 (has0_dedicated): 0.8130, F1 (has0_dedicated): 0.7341 (N=647)
+  Val ACC-5: 0.5703, ACC-7: 0.5703
+  Val Combined Score: 0.5250
+Epoch 7, TrainLoss: 0.3729
+  Val MAE: 0.3214, Corr: 0.6989
+  Val ACC-2 (non0): 0.8154, F1 (non0): 0.7866 (N=585)
+  Val ACC-2 (has0_dedicated): 0.8083, F1 (has0_dedicated): 0.7606 (N=647)
+  Val ACC-5: 0.5672, ACC-7: 0.5672
+  Val Combined Score: 0.5361
+Saved best model (comprehensive metrics with has0_head) at epoch 7
+Epoch 8, TrainLoss: 0.3536
+  Val MAE: 0.3227, Corr: 0.6911
+  Val ACC-2 (non0): 0.8171, F1 (non0): 0.7803 (N=585)
+  Val ACC-2 (has0_dedicated): 0.8145, F1 (has0_dedicated): 0.7531 (N=647)
+  Val ACC-5: 0.5827, ACC-7: 0.5827
+  Val Combined Score: 0.5302
+Epoch 9, TrainLoss: 0.3418
+  Val MAE: 0.3264, Corr: 0.6940
+  Val ACC-2 (non0): 0.8205, F1 (non0): 0.7862 (N=585)
+  Val ACC-2 (has0_dedicated): 0.8176, F1 (has0_dedicated): 0.7552 (N=647)
+  Val ACC-5: 0.5811, ACC-7: 0.5811
+  Val Combined Score: 0.5329
+Epoch 10, TrainLoss: 0.3236
+  Val MAE: 0.3192, Corr: 0.7013
+  Val ACC-2 (non0): 0.8291, F1 (non0): 0.7917 (N=585)
+  Val ACC-2 (has0_dedicated): 0.8253, F1 (has0_dedicated): 0.7660 (N=647)
+  Val ACC-5: 0.6043, ACC-7: 0.6043
+  Val Combined Score: 0.5398
+Saved best model (comprehensive metrics with has0_head) at epoch 10
+Epoch 11, TrainLoss: 0.3180
+  Val MAE: 0.3168, Corr: 0.7008
+  Val ACC-2 (non0): 0.8325, F1 (non0): 0.8040 (N=585)
+  Val ACC-2 (has0_dedicated): 0.8223, F1 (has0_dedicated): 0.7723 (N=647)
+  Val ACC-5: 0.6074, ACC-7: 0.6074
+  Val Combined Score: 0.5457
+Saved best model (comprehensive metrics with has0_head) at epoch 11
+Epoch 12, TrainLoss: 0.2939
+  Val MAE: 0.3153, Corr: 0.7033
+  Val ACC-2 (non0): 0.8256, F1 (non0): 0.8016 (N=585)
+  Val ACC-2 (has0_dedicated): 0.8176, F1 (has0_dedicated): 0.7695 (N=647)
+  Val ACC-5: 0.6151, ACC-7: 0.6151
+  Val Combined Score: 0.5455
+Epoch 13, TrainLoss: 0.2927
+  Val MAE: 0.3311, Corr: 0.6918
+  Val ACC-2 (non0): 0.8120, F1 (non0): 0.7901 (N=585)
+  Val ACC-2 (has0_dedicated): 0.7975, F1 (has0_dedicated): 0.7561 (N=647)
+  Val ACC-5: 0.5920, ACC-7: 0.5920
+  Val Combined Score: 0.5330
+Epoch 14, TrainLoss: 0.2624
+  Val MAE: 0.3310, Corr: 0.6855
+  Val ACC-2 (non0): 0.8222, F1 (non0): 0.8000 (N=585)
+  Val ACC-2 (has0_dedicated): 0.8068, F1 (has0_dedicated): 0.7610 (N=647)
+  Val ACC-5: 0.6182, ACC-7: 0.6182
+  Val Combined Score: 0.5356
+Epoch 15, TrainLoss: 0.2561
+  Val MAE: 0.3205, Corr: 0.6897
+  Val ACC-2 (non0): 0.8205, F1 (non0): 0.7896 (N=585)
+  Val ACC-2 (has0_dedicated): 0.8176, F1 (has0_dedicated): 0.7649 (N=647)
+  Val ACC-5: 0.6012, ACC-7: 0.6012
+  Val Combined Score: 0.5351
+Epoch 16, TrainLoss: 0.2457
+  Val MAE: 0.3348, Corr: 0.6693
+  Val ACC-2 (non0): 0.7949, F1 (non0): 0.7770 (N=585)
+  Val ACC-2 (has0_dedicated): 0.7944, F1 (has0_dedicated): 0.7542 (N=647)
+  Val ACC-5: 0.6059, ACC-7: 0.6059
+  Val Combined Score: 0.5200
+Epoch 17, TrainLoss: 0.2420
+  Val MAE: 0.3326, Corr: 0.6742
+  Val ACC-2 (non0): 0.8103, F1 (non0): 0.7886 (N=585)
+  Val ACC-2 (has0_dedicated): 0.7991, F1 (has0_dedicated): 0.7529 (N=647)
+  Val ACC-5: 0.6059, ACC-7: 0.6059
+  Val Combined Score: 0.5265
+Epoch 18, TrainLoss: 0.2338
+  Val MAE: 0.3265, Corr: 0.6850
+  Val ACC-2 (non0): 0.8239, F1 (non0): 0.7944 (N=585)
+  Val ACC-2 (has0_dedicated): 0.8114, F1 (has0_dedicated): 0.7598 (N=647)
+  Val ACC-5: 0.5873, ACC-7: 0.5873
+  Val Combined Score: 0.5340
+Epoch 19, TrainLoss: 0.2220
+  Val MAE: 0.3348, Corr: 0.6663
+  Val ACC-2 (non0): 0.8154, F1 (non0): 0.7907 (N=585)
+  Val ACC-2 (has0_dedicated): 0.8068, F1 (has0_dedicated): 0.7582 (N=647)
+  Val ACC-5: 0.5935, ACC-7: 0.5935
+  Val Combined Score: 0.5250
+Epoch 20, TrainLoss: 0.2135
+  Val MAE: 0.3256, Corr: 0.6767
+  Val ACC-2 (non0): 0.8171, F1 (non0): 0.7914 (N=585)
+  Val ACC-2 (has0_dedicated): 0.8037, F1 (has0_dedicated): 0.7515 (N=647)
+  Val ACC-5: 0.6012, ACC-7: 0.6012
+  Val Combined Score: 0.5296
+Epoch 21, TrainLoss: 0.2080
+  Val MAE: 0.3411, Corr: 0.6589
+  Val ACC-2 (non0): 0.7932, F1 (non0): 0.7763 (N=585)
+  Val ACC-2 (has0_dedicated): 0.7790, F1 (has0_dedicated): 0.7386 (N=647)
+  Val ACC-5: 0.6059, ACC-7: 0.6059
+  Val Combined Score: 0.5138
+Early stopping triggered at epoch 21.
